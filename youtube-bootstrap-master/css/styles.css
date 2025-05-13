@@ -1,0 +1,17 @@
+.slide img{
+    max-height: 200vh;
+    object-fit: cover;
+}
+/*===== Dark Mode =====*/
+.dark-mode{
+    background-color: #343a40;
+    color: #ffffff;
+}
+.dark-mode a i {
+    color: white;
+    transition:all 0.3s ease;
+}
+.dark-mode a:hover i{
+    color: rgb(0, 238, 255);
+
+}
